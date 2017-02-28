@@ -1,0 +1,54 @@
+* Earthquakes Interactive Map
+
+Interactive map for visualization of a large dataset tagged by geospatial information (earthquakes)
+
+
+** Build command
+
+#+BEGIN_SRC sh 
+./gradlew build
+#+END_SRC
+
+#+RESULTS:
+| Starting              | a                                                                                    | Gradle | Daemon, | 1 | incompatible | Daemon | could | not | be | reused, | use | --status | for | details |
+| :compileJava          |                                                                                      |        |         |   |              |        |       |     |    |         |     |          |     |         |
+| :processResources     | NO-SOURCE                                                                            |        |         |   |              |        |       |     |    |         |     |          |     |         |
+| :classes              |                                                                                      |        |         |   |              |        |       |     |    |         |     |          |     |         |
+| :jar                  |                                                                                      |        |         |   |              |        |       |     |    |         |     |          |     |         |
+| :startScripts         |                                                                                      |        |         |   |              |        |       |     |    |         |     |          |     |         |
+| :distTar              |                                                                                      |        |         |   |              |        |       |     |    |         |     |          |     |         |
+| :distZip              |                                                                                      |        |         |   |              |        |       |     |    |         |     |          |     |         |
+| :assemble             |                                                                                      |        |         |   |              |        |       |     |    |         |     |          |     |         |
+| :compileTestJava      |                                                                                      |        |         |   |              |        |       |     |    |         |     |          |     |         |
+| Download              | https://jcenter.bintray.com/junit/junit/4.12/junit-4.12.pom                          |        |         |   |              |        |       |     |    |         |     |          |     |         |
+| Download              | https://jcenter.bintray.com/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom     |        |         |   |              |        |       |     |    |         |     |          |     |         |
+| Download              | https://jcenter.bintray.com/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom |        |         |   |              |        |       |     |    |         |     |          |     |         |
+| Download              | https://jcenter.bintray.com/junit/junit/4.12/junit-4.12.jar                          |        |         |   |              |        |       |     |    |         |     |          |     |         |
+| Download              | https://jcenter.bintray.com/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar     |        |         |   |              |        |       |     |    |         |     |          |     |         |
+| :processTestResources | NO-SOURCE                                                                            |        |         |   |              |        |       |     |    |         |     |          |     |         |
+| :testClasses          |                                                                                      |        |         |   |              |        |       |     |    |         |     |          |     |         |
+| :test                 |                                                                                      |        |         |   |              |        |       |     |    |         |     |          |     |         |
+| :check                |                                                                                      |        |         |   |              |        |       |     |    |         |     |          |     |         |
+| :build                |                                                                                      |        |         |   |              |        |       |     |    |         |     |          |     |         |
+|                       |                                                                                      |        |         |   |              |        |       |     |    |         |     |          |     |         |
+| BUILD                 | SUCCESSFUL                                                                           |        |         |   |              |        |       |     |    |         |     |          |     |         |
+|                       |                                                                                      |        |         |   |              |        |       |     |    |         |     |          |     |         |
+| Total                 | time:                                                                                |  8.636 | secs    |   |              |        |       |     |    |         |     |          |     |         |
+
+** Run command
+
+#+BEGIN_SRC sh
+./gradlew run
+
+#+END_SRC
+
+#+RESULTS:
+| :compileJava      | UP-TO-DATE |       |      |
+| :processResources | NO-SOURCE  |       |      |
+| :classes          | UP-TO-DATE |       |      |
+| :run              |            |       |      |
+| Hello             | world.     |       |      |
+|                   |            |       |      |
+| BUILD             | SUCCESSFUL |       |      |
+|                   |            |       |      |
+| Total             | time:      | 0.742 | secs |
